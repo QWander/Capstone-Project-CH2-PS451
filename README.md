@@ -1,5 +1,10 @@
 # Capstone Team CH2-PS451
 
+<br/>
+<p align="center">
+  <a href="https://github.com/ameliatputrif/Capstone-Project-CH2-PS451">
+    <img src="MD/design/logo_text_transparant.png" alt="Logo" width="300">
+  </a>
 <h2 align="center">Bangkit Capstone Project 2023: Qwander</h2>
 
 ## About The Project
