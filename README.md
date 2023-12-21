@@ -14,4 +14,4 @@ This capstone project was initiated by our team in response to the significant g
 * (ML) M302BSY0860 – Muhammad Hisyam Ilyasa – Universitas Pertamina
 * (CC)  C277BSX4146 – Agnes Yemima Simanjuntak – Universitas Negeri Jakarta
 * (CC)  C121BSY4377 – Rizal Jihadi – Institut Teknologi Telkom Surabaya
-* (MD) A010BSX2222 – Amelia Putri Fadillah – Universitas Indonesia -
+* (MD) A010BSX2222 – Amelia Putri Fadillah – Universitas Indonesia
