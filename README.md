@@ -8,7 +8,7 @@ This capstone project was initiated by our team in response to the significant g
 </div>
 <br/>
 
-## Team Memer
+## Team Member
 * (ML) M010BSY0180 – Said Abdurrahman – Universitas Indonesia
 * (ML) M010BSY0575 – Enzo Hering Fahrezzy – Universitas Indonesia
 * (ML) M302BSY0860 – Muhammad Hisyam Ilyasa – Universitas Pertamina
