@@ -1,3 +1,5 @@
 .backend
 .ml-models
 main.py
+*.xlsx
+.ML
