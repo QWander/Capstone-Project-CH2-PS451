@@ -1,17 +1,17 @@
 <resources>
     <string name="app_name">Qwander</string>
-    <string name="age">Age</string>
+    <string name="age">Usia</string>
     <string name="gender">Gender</string>
-    <string name="city">City</string>
-    <string name="attraction_category">Attraction Category</string>
-    <string name="price_estimation">Price Estimation</string>
-    <string name="form_description">Silakan masukan data diri Anda!</string>
-    <string name="find_attraction">Find Attraction</string>
+    <string name="city">Kota Tujuan</string>
+    <string name="attraction_category">Kategori Wisata</string>
+    <string name="price_estimation">Estimasi Harga</string>
+    <string name="form_description">Isi data dibawah ini untuk menemukan destinasi wisatamu!</string>
+    <string name="find_attraction">Cari Tempat Wisata</string>
     <string name="attraction_name">Monumen Nasional</string>
     <string name="ratting">4.6</string>
-    <string name="ratting_">Ratting:\ </string>
+    <string name="ratting_">Rating:\ </string>
     <string name="attraction_description">Monumen Nasional atau yang populer disingkat dengan Monas atau Tugu Monas adalah monumen peringatan setinggi 132 meter (433 kaki) yang didirikan untuk mengenang perlawanan dan perjuangan rakyat Indonesia untuk merebut kemerdekaan dari pemerintahan kolonial Hindia Belanda. Pembangunan monumen ini dimulai pada tanggal 17 Agustus 1961 di bawah perintah presiden Soekarno dan dibuka untuk umum pada tanggal 12 Juli 1975. Tugu ini dimahkotai lidah api yang dilapisi lembaran emas yang melambangkan semangat perjuangan yang menyala-nyala. Monumen Nasional terletak tepat di tengah Lapangan Medan Merdeka, Jakarta Pusat.</string>
-    <string name="price">Rp900.000</string>
+    <string name="price">Rp900.000,00</string>
 
     <string-array name="gender_array">
         <item>Perempuan</item>
@@ -35,8 +35,9 @@
         <item>Tempat Ibadah</item>
     </string-array>
     <string name="title_activity_detail2">DetailActivity2</string>
-    <string name="result_explanation">Berikut ini rekomendasi tempat wisata dari kami!</string>
+    <string name="result_explanation">10 rekomendasi destinasi wisata untukmu!</string>
     <string name="harga">Harga:\ </string>
+    <string name="price_hint">Masukan Estimasi Harga</string>
 
 
 </resources>

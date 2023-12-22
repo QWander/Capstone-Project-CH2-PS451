@@ -36,17 +36,17 @@ class RecommendationsActivity : AppCompatActivity() {
             setDisplayShowHomeEnabled(true)
             title = null
         }
-
         val receivedIntent = intent
         val userRequestBody: UserRequestBody? = receivedIntent.getParcelableExtra("userRequestBody")
 
 
         if (userRequestBody != null) {
-            binding.progressBar.visibility = View.GONE
+            binding.progressBar.visibility = View.VISIBLE
 
             getRecommendation(userRequestBody)
 
-           }
+
+        }
 
 
 
@@ -78,6 +78,8 @@ class RecommendationsActivity : AppCompatActivity() {
                 Log.e(TAG, "onFailure: ${t.message.toString()}")
             }
         })
+
+        binding.progressBar.visibility = View.VISIBLE
     }
 
 
