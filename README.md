@@ -46,7 +46,7 @@ use command: git clone https://github.com/QWander/Capstone-Project-CH2-PS451.git
 #### How to run the QWander locally
 1. Confirm the files
 <br />This required files must exist in the root folder
-main.py, model(folder), requirements.txt, responses.csv
+main.py, model(folder), requirements.txt, response.csv
 2. Make sure the local machine had python already installed use command ``` phyton --version ```. If the python doesn't exist, go to this  <a href="https://www.python.org/" target="_blank">page</a>.
 4. Install the required library use command   ``` pip install -r requirements.txt ```. Wait until finish.
 5. Run the app use command ``` python main.py ``` 
