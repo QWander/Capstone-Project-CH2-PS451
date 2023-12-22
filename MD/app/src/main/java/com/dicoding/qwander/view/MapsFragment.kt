@@ -11,7 +11,6 @@ import android.view.ViewGroup
 import com.dicoding.qwander.R
 
 import com.google.android.gms.maps.CameraUpdateFactory
-import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
@@ -28,7 +27,6 @@ class MapsFragment : Fragment() {
         name = arguments?.getString(EXTRA_NAME)
 
 
-//        val place = LatLng(-6.1753924, 106.8271528)
         val place = LatLng(lat!!, long!!)
         Log.i(TAG, "datanya lat $lat")
         Log.i(TAG, "datanya long $long")

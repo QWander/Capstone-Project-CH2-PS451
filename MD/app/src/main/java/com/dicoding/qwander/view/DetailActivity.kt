@@ -4,12 +4,9 @@ import android.content.ContentValues.TAG
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.TextView
-import androidx.annotation.StringRes
 import com.dicoding.qwander.R
 import com.dicoding.qwander.data.response.RecommendationsItem
 import com.dicoding.qwander.databinding.ActivityDetailBinding
-import com.google.android.gms.maps.GoogleMap
 import java.text.NumberFormat
 import java.util.Currency
 import java.util.Locale

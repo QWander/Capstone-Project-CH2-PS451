@@ -6,18 +6,13 @@ import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Button
-import android.widget.EditText
-import android.widget.Spinner
 import androidx.annotation.RequiresApi
 import com.dicoding.qwander.R
-//import com.dicoding.qwander.data.User
 import com.dicoding.qwander.data.repository.UserRequestBody
 import com.dicoding.qwander.data.response.RecommendationsItem
 import com.dicoding.qwander.databinding.ActivityMainBinding
-import com.dicoding.qwander.view.DetailActivity
 import com.dicoding.qwander.view.recommendations.RecommendationsActivity
 import java.time.Year
 
@@ -31,11 +26,10 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
 
         setContentView(binding.root)
-//        setContentView(R.layout.activity_main)
 
 
         supportActionBar?.apply {
-            setLogo(R.drawable.logo_text_tranparant) // Replace with your logo resource
+            setLogo(R.drawable.logo_text_tranparant)
             setDisplayUseLogoEnabled(true)
             setDisplayShowHomeEnabled(true)
             title = null
@@ -105,15 +99,11 @@ class MainActivity : AppCompatActivity() {
             Log.i(TAG, "datanya category: $category")
             Log.i(TAG, "datanya price: $price")
 
-//            val user = User(generation, gender, city, category, price)
             val userRequestBody = UserRequestBody(generation, category, price, gender, city)
 
-            val recomendation =RecommendationsItem("d1", "name1", 0, 4.6,-6.3080282, 106.790548 )
 
             val intent = Intent(this@MainActivity, RecommendationsActivity::class.java)
             intent.putExtra("userRequestBody", userRequestBody)
-//            val intent = Intent(this@MainActivity, DetailActivity::class.java)
-//            intent.putExtra("Recommendation", recomendation)
             startActivity(intent)
         }
 
