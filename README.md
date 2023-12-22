@@ -15,6 +15,9 @@ This capstone project was initiated by our team in response to the significant g
 
 ## Documentation
 
+### Machine Learning
+Building a model recommendation system using TensorFlow and TensorFlow Recommenders (TFRS), with the model consist of three main components such as ‘UserModel’ for encoding user features, ‘PlaceModel’ for encoding place features, and the main recommendation model ‘PlaceDestinationModel’ that utilizes these encoders for recommendation.
+
 ### Mobile Development
 #### Prerequisites
 1. Android 7.0 Nougat (SDK 24) or above.
