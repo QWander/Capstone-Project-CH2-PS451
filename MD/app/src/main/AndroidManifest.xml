@@ -27,6 +27,8 @@
              Once you have your API key (it starts with "AIza"), define a new property in your
              project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
              "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+             if the token deleted
+             android:value="AIzaSyDN5VJZAk60JNIp7-RUvP9ax5GupZbKiFk"
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
@@ -36,7 +38,7 @@
             android:name=".view.DetailActivity"
             android:exported="false" />
         <activity
-            android:name=".view.recommendations.RecomendationsAvtivity"
+            android:name=".view.recommendations.RecommendationsActivity"
             android:exported="false" />
         <activity
             android:name=".view.main.MainActivity"
