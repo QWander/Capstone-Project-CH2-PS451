@@ -30,6 +30,24 @@ This capstone project was initiated by our team in response to the significant g
 5. In the detail recommendation, you will be given some information, namely place name, rating, price, description and map.
 6. In the maps, you can click the coordinate of location to redirect you to google maps and use Google Maps features.
 
+### Cloud Computing
+#### Prerequisites
+1. Any operating system.
+2. Internet Connection.
+3. Git (can be downloaded via https://git-scm.com/downloads)
+#### Installation
+1. clone the project from git
+use command: git clone https://github.com/QWander/Capstone-Project-CH2-PS451.git
+2. Open the folder using preferred IDE (VSC is highly recommended)
+
+#### How to run the QWander locally
+1. Confirm the files
+<br />This required files must exist in the root folder
+main.py, model(folder), requirements.txt, responses.csv
+2. Make sure the local machine had python already installed use command ``` phyton --version ```. If the python doesn't exist, go to this  <a href="https://www.python.org/" target="_blank">page</a>.
+4. Install the required library use command   ``` pip install -r requirements.txt ```. Wait until finish.
+5. Run the app use command ``` python main.py ``` 
+7. Access the url provided by the terminal/cmd
 
 
 
