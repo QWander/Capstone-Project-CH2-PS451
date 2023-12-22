@@ -13,6 +13,26 @@ This capstone project was initiated by our team in response to the significant g
 </div>
 <br/>
 
+## Documentation
+
+### Mobile Development
+#### Prerequisites
+1. Android 7.0 Nougat (SDK 24) or above.
+2. Internet Connection.
+#### Installation
+1. Download the APK Files <a href="https://drive.google.com/file/d/11KkgxBu0cIUw2D4k97_FP1R9so-KVKx1/view?usp=sharing" target="_blank">here</a>.
+2. Install APK File (Allow permission install from Unknown Source).
+#### How to use
+1. Open App.
+2. Fill in the form provided.
+3. Press the button to display a list of recommendations which have been given based on your characteristics.
+4. You can select the recommendation item to see the details of recommendation.
+5. In the detail recommendation, you will be given some information, namely place name, rating, price, description and map.
+6. In the maps, you can click the coordinate of location to redirect you to google maps and use Google Maps features.
+
+
+
+
 ## Team Member
 * (ML) M010BSY0180 – Said Abdurrahman – Universitas Indonesia
 * (ML) M010BSY0575 – Enzo Hering Fahrezzy – Universitas Indonesia
